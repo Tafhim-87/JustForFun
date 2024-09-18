@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="main w-full h-screen bg-[#efefef]">
+      <div class="nav flex justify-between p-5">
+        <div id="logo"><h1 class="text-3xl font-bold">mnmlst.</h1></div>
+        <div id="menu">
+          <nav class="flex gap-8 text-2xl">
+            <h3>Home</h3>
+            <h3>Product</h3>
+            <h3>Store</h3>
+            <h3>About us</h3>
+          </nav>
+        </div>
+        <div id="icon"><i class="fa-solid fa-bars text-3xl"></i></div>
+      </div>
+
+      <div id="content">
+        <div class="header ml-[10%] mt-[3%]">
+          <p class="w-[20%] text-justify text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            officia sed iste aspernatur delectus molestiae?
+          </p>
+          <button class="font-bold">Read more</button>
+        </div>
+        <div
+          id="mid"
+          class="w-[100%] h-[70%] flex justify-center items-start relative"
+        >
+          <div
+            class="circle w-[35vw] h-[35vw] bg-[#e6ba38] rounded-full absolute top-[-10vw]"
+          ></div>
+          <img
+            src="Place Your Image Here (Double Click to Edit).png"
+            class="absolute w-[20vw] h-[40vw] flex shrink-0 top-[-8vw]"
+            alt=""
+          />
+          <h1
+            class="text-[8vw] leading-[8vw] pl-[43vw] whitespace-[3vw] font-bold absolute"
+          >
+            less is <br />
+            <span id="element"></span>
+          </h1>
+        </div>
+        <div id="footer" class="p-5 flex justify-between">
+          <div class="right flex mt-[55vh] text-2xl gap-7">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+          <div class="left mt-[57vh] font-semibold">
+            <h5>Arlington Heights, IL</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
